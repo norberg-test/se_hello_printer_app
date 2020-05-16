@@ -2,8 +2,8 @@
 .. image:: https://travis-ci.org/norberg-test/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/norberg-test/se_hello_printer_app
 
-.. image:: https://www.statuscake.com" title="Website Uptime Monitoring
-    :target: https://app.statuscake.com/button/index.php?Track=GhxgHvgcRM&Days=1&Design=6
+.. image:: https://app.statuscake.com/button/index.php?Track=GhxgHvgcRM&Days=1&Design=6
+    :target: https://www.statuscake.com 
 # <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=GhxgHvgcRM&Days=1&Design=6" /></a>
 
 
