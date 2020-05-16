@@ -10,3 +10,8 @@ script:
   - make test
   - make docker_build
   - make docker_push
+
+deploy:
+provider: heroku
+app: fierce-spire-34188
+api_key: ${a9d37932-67b1-47c6-8dca-0c9d750ede7a}
