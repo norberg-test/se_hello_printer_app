@@ -21,9 +21,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
     $ mkvirtualenv wsb-simple-flask-app -tym tworzy sie srodowsiko wirtualne
-    
+
 -instalowanie paczek za pomoca komed lub pliku make
-    
+
     $ pip install -r requirements.txt
     $ pip install -r test_requirements.txt
 
@@ -38,11 +38,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     # albo:
     $ PYTHONPATH=. FLASK_APP=hello_world flask run
-    
+
     # albo
     $ make run
 
--musi ona byc odpalona. By sprawdzic czy dzila 
+-musi ona byc odpalona. By sprawdzic czy dzila
     $ crul 127.0.0.1:5000
     #jesli dziala wyswietli "Bartek Hello World!"
 
@@ -52,8 +52,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 -wymagane w
     $ PYTHONPATH=. py.test
     $ PYTHONPATH=. py.test  --verbose -s
-    
-    # albo 
+
+    # albo
     $ make test
 
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
